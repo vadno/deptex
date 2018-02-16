@@ -1,0 +1,41 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{tikz-dependency}
+
+\begin{document}
+
+
+\hspace{-4cm}
+\begin{dependency}
+\begin{deptext}
+ROOT \& Az \& összehasonlító \& irodalomtörténet \& tárgyköréből \& jelentek \& meg \& tanulmányai \& . \\
+ROOT \& DET \& ADJ \& NOUN \& NOUN \& VERB \& PART \& NOUN \& PUNCT \\
+\end{deptext}
+\depedge{4}{2}{DET}
+\depedge{4}{3}{ATT}
+\depedge{5}{4}{ATT}
+\depedge{6}{5}{OBL}
+\depedge{1}{6}{ROOT}
+\depedge{6}{7}{PREVERB}
+\depedge{6}{8}{SUBJ}
+\depedge{1}{9}{PUNCT}
+\end{dependency}
+
+
+\hspace{-4cm}
+\begin{dependency}
+\begin{deptext}
+ROOT \& Ne \& vesztegesd \& and \& az \& idődet \& ! \\
+ROOT \& ADV \& VERB \& ADV \& DET \& NOUN \& PUNCT \\
+\end{deptext}
+\depedge{3}{2}{NEG}
+\depedge{1}{3}{ROOT}
+\depedge{3}{4}{PREVERB}
+\depedge{6}{5}{DET}
+\depedge{3}{6}{OBJ}
+\depedge{1}{7}{PUNCT}
+\end{dependency}
+
+
+\end{document}
