@@ -64,14 +64,13 @@ def to_tex(sentlist):
     """
 
     with open(sys.argv[2], 'w') as of:
-        print('\\documentclass{article}\n',
+        print('\\documentclass{minimal}\n',
               '\\usepackage[utf8]{inputenc}',
               '\\usepackage{tikz-dependency}\n',
               '\\begin{document}\n', sep='\n', end='\n\n', file=of)
 
         for sent in sentlist:
-            print('\\hspace{-4cm}',
-                  '\\begin{dependency}',
+            print('\\begin{dependency}',
                   '\\begin{deptext}', sep='\n', end='\n', file=of)
 
             print(' \\& '.join([word[1] for word in sent]), end=' \\\\\n', file=of)
