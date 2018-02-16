@@ -18,13 +18,15 @@ The script can be run by this command: `python3 deptex.py arg1 arg2`
 
 You can download **magyarlanc** from [here](http://www.inf.u-szeged.hu/rgai/magyarlanc). Please cite this article: Zsibrita, János; Vincze, Veronika; Farkas, Richárd 2013: magyarlanc: A Toolkit for Morphological and Dependency Parsing of Hungarian. In: Proceedings of RANLP 2013, pp. 763-771.
 
-> @inproceedings{magyarlanc,
-> author = {Zsibrita, J\'{a}nos and Vincze, Veronika and Farkas, Rich\'{a}rd}, \
-> title = {magyarlanc: A Toolkit for Morphological and Dependency Parsing of Hungarian}, \
-> booktitle = {Proceedings of RANLP 2013}, \
-> pages = {763--771}, \
-> year = {2013} \
-> }
+```
+@inproceedings{magyarlanc,
+author = {Zsibrita, J\'{a}nos and Vincze, Veronika and Farkas, Rich\'{a}rd}, \
+title = {magyarlanc: A Toolkit for Morphological and Dependency Parsing of Hungarian}, \
+booktitle = {Proceedings of RANLP 2013}, \
+pages = {763--771}, \
+year = {2013} \
+}
+```
 
 # arg2: output
 
