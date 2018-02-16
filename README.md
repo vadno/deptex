@@ -20,11 +20,11 @@ You can download **magyarlanc** from [here](http://www.inf.u-szeged.hu/rgai/magy
 
 ```
 @inproceedings{magyarlanc,
-author = {Zsibrita, J\'{a}nos and Vincze, Veronika and Farkas, Rich\'{a}rd}, \
-title = {magyarlanc: A Toolkit for Morphological and Dependency Parsing of Hungarian}, \
-booktitle = {Proceedings of RANLP 2013}, \
-pages = {763--771}, \
-year = {2013} \
+author = {Zsibrita, J\'{a}nos and Vincze, Veronika and Farkas, Rich\'{a}rd},
+title = {magyarlanc: A Toolkit for Morphological and Dependency Parsing of Hungarian},
+booktitle = {Proceedings of RANLP 2013},
+pages = {763--771},
+year = {2013}
 }
 ```
 
