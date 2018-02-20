@@ -42,4 +42,4 @@ The output is a simple .tex file containing the minimal preamble. Every sentence
 
 ## test
 
-A sample file (test_magyarlanc.txt) is provided with two sentences parsed by magyarlanc. In deptex.sh the two steps (running deptex.py and compiling the pdf) are concatenated. In the .sh script run with the sample input file.
+A sample file (test_magyarlanc.txt) is provided with two sentences parsed by magyarlanc. In deptex.sh the two steps (running deptex.py and compiling the pdf) are concatenated. The .sh script runs on the sample input file.
